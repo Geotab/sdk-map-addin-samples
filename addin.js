@@ -58,11 +58,12 @@ geotab.addin.request = (elt, service) => {
             ]).then(results => {
                 let rawOdo = results[0][0].data;
 
-                var odometerValue = isUIMetric ? Math.round(rawOdo / 1000) : Math.round(rawOdo / 1609.344);
+                var odometerValue = isUIMetric ? `${Math.round(rawOdo / 1000)} km` : `${Math.round(rawOdo / 1609.344)} mi`;
                 var fuelLevelValue = results[1][0].data.toFixed(2);
                 console.log(odometerValue, fuelLevelValue);
 
                 service.tooltip.show({
+                    icon: "https://www.svgimages.com/svg-image/s5/odometer-half-256x256.png",
                     main: "Testing",
                     secondary: [`Odometer value: ${odometerValue}`, `Fuel level: ${fuelLevelValue}%`]
                 });
