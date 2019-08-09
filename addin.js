@@ -64,9 +64,9 @@ geotab.addin.request = (elt, service) => {
 
                 service.tooltip.show({
                     icon: "https://www.svgimages.com/svg-image/s5/odometer-half-256x256.png",
-                    main: "Testing",
+                    main: " ",
                     secondary: [`Odometer value: ${odometerValue}`, `Fuel level: ${fuelLevelValue}%`]
-                });
+                }, 2);
             });
 
         }
