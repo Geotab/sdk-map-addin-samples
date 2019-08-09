@@ -1,6 +1,8 @@
 # Hover Box/Tooltip Sample Addin
 
-## About
+_Testing the new deeper integration API calls._
+
+### About
 
 This example features the following engine data in the hover box when following a breadcrumb trail on the map:
 
@@ -9,6 +11,15 @@ This example features the following engine data in the hover box when following 
 
 Engine data is updated each time the cursor is moved.
 
-## Screenshot
+### Screenshot
 
 ![Alt-Text](/uploads/d72de95ce61fdef61f63e62a51cd504b/hover_screenshot.png)
+
+### References
+- [Map Add-in Tooltip Example][tooltip]
+- [Map Add-in Events Example][events]
+- [Map Add-in Request Example][request]
+
+[tooltip]: https://git.geotab.com/map-add-ins/simple-map-add-ins/tree/master/tooltip
+[events]: https://git.geotab.com/map-add-ins/simple-map-add-ins/tree/master/events
+[request]: https://git.geotab.com/map-add-ins/simple-map-add-ins/tree/master/request
