@@ -1,0 +1,12 @@
+{
+    "name": "Events",
+    "supportEmail": "support@geotab.com",
+    "version": "1.0",
+    "items": [{
+        "page": "map",
+        "mapScript": {
+            "src": "/events/addin.js",
+            "style": "/events/addin.css"
+        }
+    }]
+}

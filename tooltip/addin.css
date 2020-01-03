@@ -1,0 +1,24 @@
+.addin .addin_row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.addin .addin_field {
+    flex: 1 1 auto;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    border-radius: 4px;
+}
+
+.addin .addin_row label {
+    flex: 0 0 50px;
+}
+
+.addin .addin_row button {
+    flex: 1 1 50px;
+}
+
+.addin img {
+    margin-top: 10px;
+    border: 1px solid #cccccc;
+}

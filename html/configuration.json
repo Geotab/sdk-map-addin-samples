@@ -1,0 +1,11 @@
+{
+    "name": "HTML",
+    "supportEmail": "support@geotab.com",
+    "version": "1.0",
+    "items": [{
+        "page": "map",
+        "mapScript": {
+            "url": "/html/addin.html"
+        }
+    }]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "MapElements",
+    "supportEmail": "support@geotab.com",
+    "version": "1.0",
+    "items": [{
+        "page": "map",
+        "mapScript": {
+            "src": "/mapElements/addin.js",
+            "style": "/mapElements/addin.css"
+        }
+    }]
+}
