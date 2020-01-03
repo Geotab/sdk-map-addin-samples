@@ -1,0 +1,12 @@
+{
+    "name": "Action",
+    "supportEmail": "support@geotab.com",
+    "version": "1.0",
+    "items": [{
+        "page": "map",
+        "mapScript": {
+            "src": "/action/addin.js",
+            "style": "/action/addin.css"
+        }
+    }]
+}

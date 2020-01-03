@@ -1,0 +1,12 @@
+{
+    "name": "New Map addin",
+    "supportEmail": "support@geotab.com",
+    "version": "1.0",
+    "items": [{
+        "page": "map",
+        "mapScript": {
+            "src": "/localStorage/addin.js",
+            "style": "/localStorage/addin.css"
+        }
+    }]
+}

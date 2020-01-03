@@ -1,0 +1,19 @@
+.html_addin .addin_row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.html_addin .addin_field {
+    flex: 1 1 auto;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    border-radius: 4px;
+}
+
+.html_addin .addin_row label {
+    flex: 0 0 50px;
+}
+
+.html_addin .addin_row button {
+    flex: 1 1 50px;
+}

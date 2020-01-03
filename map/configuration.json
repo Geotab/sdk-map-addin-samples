@@ -1,0 +1,12 @@
+{
+    "name": "Addin to control map",
+    "supportEmail": "support@geotab.com",
+    "version": "1.0",
+    "items": [{
+        "page": "map",
+        "mapScript": {
+            "src": "/map/addin.js",
+            "style": "/map/addin.css"
+        }
+    }]
+}

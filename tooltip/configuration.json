@@ -1,0 +1,12 @@
+{
+    "name": "Tooltip",
+    "supportEmail": "support@geotab.com",
+    "version": "1.0",
+    "items": [{
+        "page": "map",
+        "mapScript": {
+            "src": "/tooltip/addin.js",
+            "style": "/tooltip/addin.css"
+        }
+    }]
+}
