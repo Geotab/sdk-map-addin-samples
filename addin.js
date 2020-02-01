@@ -103,10 +103,6 @@ geotab.addin.request = (elt, service) => {
                     tooltipInformation.push(`Battery charge level: ${stateOfChargeValue}%`);
                 }
 
-                if (chargingStateValue) {
-                    tooltipInformation.push(`Currently charging? ${chargingStateValue}`);
-                }
-
                 if (stateOfChargeValue && chargingStateValue && fuelLevelValue) {
                     mainInfo = "PHEV";
                 } else if (stateOfChargeValue && fuelLevelValue && !chargingStateValue) {
