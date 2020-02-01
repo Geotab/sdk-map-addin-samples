@@ -22,10 +22,10 @@ geotab.addin.request = (elt, service) => {
     service.events.attach('over', data => {
         // console.log(data);
         // console.log("Type: ", data.type);
-        if (data.type == "trip") {
+        if (data.type == "trip" || data.type == "device") {
             var tripId = data.entity.id;
-            var deviceId = data.entity.device.id;
-            var hoverTimestamp = data.entity.dateTime;
+            var deviceId = data.type == "trip" ? data.entity.device.id : data.entity.id;
+            var hoverTimestamp = data.type == "trip" ? data.entity.dateTime : new Date().toISOString();
             // console.log(tripId, deviceId, hoverTimestamp);
 
             service.api.multiCall([
