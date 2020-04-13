@@ -36,6 +36,7 @@ geotab.addin.request = (elt, service) => {
                     <button id="australia">Australia</button>
                     <button id="russia">Rectangular in Russia</button>
                     <button id="mexico">Text in Mexico</button>
+                    <button id="circle-ca">Circle in CA</button>
                     <button id="japan-url">Marker in Japan (URL)</button>
                     <button id="japan-buffer-array">Marker in Japan (BufferArray)</button>
                 </div>
@@ -96,7 +97,7 @@ geotab.addin.request = (elt, service) => {
                         { type: "Z" }
                     ];
 
-                    service.canvas.path(coords, "Text from addin", 20)
+                    service.canvas.path(coords, 20)
                         .change({ fill: fill.value, stroke: stroke.value })
                         .attach("click", () => {
                             console.log("Clicked on path");
@@ -123,7 +124,7 @@ geotab.addin.request = (elt, service) => {
                 }
             ];
 
-            return service.canvas.path(coords)
+            return service.canvas.path(coords, 100)
                 .change({
                     "fill": randomColorPick(colors),
                     "stroke": randomColorPick(colors),
@@ -230,7 +231,7 @@ geotab.addin.request = (elt, service) => {
         elt.querySelector("#russia").addEventListener("click", () => {
             russiaRect && russiaRect.remove();
           
-            russiaRect = service.canvas.rect({ lat: 65.29346780107583, lng: 79.365234375 }, 200, 30, 3)
+            russiaRect = service.canvas.rect({ lat: 65.29346780107583, lng: 79.365234375 }, 200, 30, 3, 100)
                 .change({
                     "fill": "#000",
                     "stroke-width": 0,
@@ -250,9 +251,24 @@ geotab.addin.request = (elt, service) => {
                     "fill": randomColorPick(colors),
                     "font-size": Math.floor(Math.random() * 20 + 10)
                 })
-                .attach("click", () => { console.log(`Russia Clicked`); })
-                .attach("over", () => { console.log(`Over Russia`); })
-                .attach("out", () => { console.log(`Out of Russia`); });
+                .attach("click", () => { console.log(`Mexico Clicked`); })
+                .attach("over", () => { console.log(`Over Mexico`); })
+                .attach("out", () => { console.log(`Out of Mexico`); });
+        }, false);
+
+        let circleInCA;
+        elt.querySelector("#circle-ca").addEventListener("click", () => {
+            circleInCA && circleInCA.remove();
+          
+            circleInCA = service.canvas.circle({ lat: 37.810629, lng: -122.41154 }, 50, 40)
+                .change({
+                    "fill": randomColorPick(colors),
+                    "fill-opacity": 0.4,
+                    "r": 10
+                })
+                .attach("click", () => { console.log(`circleInCA Clicked`); })
+                .attach("over", () => { console.log(`circleInCA over`); })
+                .attach("out", () => { console.log(`circleInCA out`); })
         }, false);
 
         let imageMarkerInJapanUrl;
