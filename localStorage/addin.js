@@ -32,7 +32,7 @@ geotab.addin.hello = (elt, service) => {
 
     save.addEventListener("click", () => {
         // set value to local storage
-        service.localStorage.set(key.value, { value: value.value })
+        service.localStorage.set(key.value, value.value)
             .then(() => console.log("Done"));
     }, false);
 
