@@ -1,0 +1,13 @@
+{
+    "name": "Make Model Year Tool Tip",
+    "supportEmail": "support@geotab.com",
+    "version": "1.0",
+    "items": [{
+        "page": "map",
+		"title": "Make Model Year Tool Tip",
+		"noView": "true",
+        "mapScript": {
+            "src": "/map/addin.js"
+        }
+    }]
+}
