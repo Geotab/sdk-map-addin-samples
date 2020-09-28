@@ -11,7 +11,7 @@ This project contains a few simple examples of add-ins that can be opened in rig
 7) **mapElements** - shows how to draw different elements on the map and catch events from them `services.canvas`;
 8) **map** - shows how to control map view and catch events from it `services.map`;
 9) **html** - shows how use html file as a amin file for map add-in.
-10) **makeModelYearToolTip** - shows how to display additional information retrieved using the SDK in the tooltip  
+10) **makeModelYearToolTip** - shows how to display additional information retrieved using the SDK in the tooltip.  
 
 To try it:
 
