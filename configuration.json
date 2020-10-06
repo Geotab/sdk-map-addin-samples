@@ -1,13 +1,23 @@
 {
   "name": "Hover Box Sample Addin",
-  "supportEmail": "support@geotab.com",
+  "supportEmail": "integrations@geotab.com",
   "version": "0.0.1",
-  "items": [{
-    "page":"tripsHistory",
-    "title":"Hover Box Sample Addin",
-    "mapScript":{
-      "src":"hover-box-sample-addin/addin.js",
-      "style":"hover-box-sample-addin/addin.css"
+  "items": [
+    {
+      "page": "tripsHistory",
+      "title": "Hover Box Sample Addin",
+      "mapScript": {
+        "src": "hover-box-sample-addin/addin.js",
+        "style": "hover-box-sample-addin/addin.css"
+      }
+    },
+    {
+      "page": "maps",
+      "title": "Hover Box Sample Addin",
+      "mapScript": {
+        "src": "hover-box-sample-addin/addin.js",
+        "style": "hover-box-sample-addin/addin.css"
+      }
     }
-  }]
+  ]
 }
