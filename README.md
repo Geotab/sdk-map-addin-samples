@@ -1,4 +1,4 @@
-# Hover Box/Tooltip Sample Addin
+# Odometer & Fuel Level Tooltip Sample Map Add-in
 
 _Testing the new deeper integration API calls._
 
@@ -7,14 +7,16 @@ _Testing the new deeper integration API calls._
 This example features the following engine data in the tooltip when hovering over a vehicle on the live map or following a breadcrumb trail of a vehicle's trip history:
 
 1) **Odometer Value** - in the user's preferred unit of measurement _(km/mi)_
-2) **Fuel Level** - shown as a percentage
-3) **Battery Charge Level** - shown as a percentage
+2) **Fuel Level** - shown as a percentage _(this is only shown for fuel-engine, hybrid, and plug-in hybrid vehicles)_
+3) **Battery Charge Level** - shown as a percentage _(this is only shown for hybrid, plug-in hybrid, and electric vehicles)_
 
 Engine data is updated each time the cursor is moved.
 
+The browser's sessionStorage is used to cache engine data to prevent unnecessary repetitive API calls. sessionStorage is temporary storage and is cleared whenever the user's session ends (i.e. the window or tab is closed).
+
 ### Screenshot
 
-![Alt-Text](/uploads/d0e11dedeb49cba85e4a1826017791b9/tripshoverscreenshot.png)
+![Alt-Text](/uploads/67e29c1c4e80b25c203b77c5ba4b13fa/image.png)
 
 ### References
 - [Map Add-in Tooltip Example][tooltip]
