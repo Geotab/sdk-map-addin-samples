@@ -16,7 +16,7 @@ The browser's sessionStorage is used to cache engine data to prevent unnecessary
 
 ### Screenshot
 
-![Alt-Text](/uploads/67e29c1c4e80b25c203b77c5ba4b13fa/image.png)
+![Alt-Text](/uploads/48d73d1de6eb838006eb9d5d72c1fa5a/tooltipscreenshot.png)
 
 ### References
 - [Map Add-in Tooltip Example][tooltip]
