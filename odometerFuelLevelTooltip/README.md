@@ -14,10 +14,6 @@ Engine data is updated each time the cursor is moved.
 
 The browser's sessionStorage is used to cache engine data to prevent unnecessary repetitive API calls. sessionStorage is temporary storage and is cleared whenever the user's session ends (i.e. the window or tab is closed).
 
-### Screenshot
-
-![Alt-Text](/uploads/48d73d1de6eb838006eb9d5d72c1fa5a/tooltipscreenshot.png)
-
 ### References
 - [Map Add-in Tooltip Example][tooltip]
 - [Map Add-in Events Example][events]
