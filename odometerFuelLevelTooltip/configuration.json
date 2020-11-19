@@ -8,7 +8,7 @@
 			"noView": "true",
 			"title": "Odometer and Fuel Level Tooltip Map Add-In",
 			"mapScript": {
-				"src": "odometer-fuel-level-tooltip-map-add-in/addin.js"
+				"src": "/odometerFuelLevelTooltip/addin.js"
 			}
 		},
 		{
@@ -16,7 +16,7 @@
 			"noView": "true",
 			"title": "Odometer and Fuel Level Tooltip Map Add-In",
 			"mapScript": {
-				"src": "odometer-fuel-level-tooltip-map-add-in/addin.js"
+				"src": "/odometerFuelLevelTooltip/addin.js"
 			}
 		}
 	]
