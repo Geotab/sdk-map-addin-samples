@@ -1,0 +1,23 @@
+{
+	"name": "Odometer and Fuel Level Tooltip Map Add-In",
+	"supportEmail": "support@geotab.com",
+	"version": "1.0.0",
+	"items": [
+		{
+			"page": "tripsHistory",
+			"noView": "true",
+			"title": "Odometer and Fuel Level Tooltip Map Add-In",
+			"mapScript": {
+				"src": "odometer-fuel-level-tooltip-map-add-in/addin.js"
+			}
+		},
+		{
+			"page": "maps",
+			"noView": "true",
+			"title": "Odometer and Fuel Level Tooltip Map Add-In",
+			"mapScript": {
+				"src": "odometer-fuel-level-tooltip-map-add-in/addin.js"
+			}
+		}
+	]
+}
