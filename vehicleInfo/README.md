@@ -2,7 +2,8 @@
 
 _This tool is not intended for use by U.S. Federal Government customers or otherwise in the FedRamp environment._
 
-#Installation
+# Installation
+
 To install, download this as a zip folder, then drag and drop it as a new Add-in within the System Settings page of MyGeotab:
 Administration > System > System Settings > Add-Ins > New Add-in > drag and drop zip file.
 
