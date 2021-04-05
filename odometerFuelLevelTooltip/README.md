@@ -1,6 +1,6 @@
 # Odometer & Fuel Level Tooltip Sample Map Add-in
 
-_Testing the new deeper integration API calls._
+_Testing the new Map API calls._
 
 ### About
 
