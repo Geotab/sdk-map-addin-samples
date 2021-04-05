@@ -1,0 +1,14 @@
+{
+  "name": "Vehicle Info",
+  "supportEmail": "integrations@geotab.com",
+  "version": "1.1",
+  "items": [
+    {
+      "page": "map",
+      "title": "Vehicle Info",
+      "mapScript": {
+        "url": "/vehicleInfo/addin.html"
+      }
+    }
+  ]
+}
