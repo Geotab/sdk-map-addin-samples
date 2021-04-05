@@ -7,7 +7,7 @@
       "page": "map",
       "title": "Vehicle Info",
       "mapScript": {
-        "url": "vehicle-info-map-addin/addin.html"
+        "url": "/vehicleInfo/addin.html"
       }
     }
   ]
