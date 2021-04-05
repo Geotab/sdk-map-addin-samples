@@ -13,6 +13,7 @@ This project contains a few simple examples of add-ins that can be opened in rig
 9) **html** - shows how use html file as a amin file for map add-in.
 10) **makeModelYearTooltip** - shows how to display additional information retrieved using the SDK in the tooltip;
 11) **odometerFuelLevelTooltip** - shows how to display additional information (i.e. StatusData) retrieved using the SDK in the tooltip and using session storage `services.events`, `services.tooltip`, `services.api`;
+12) **vehicleInfo** - shows how to use the MyGeotab APIs and Map events to display current vehicle information when the user clicks on a vehicle on the map.
 
 To try it:
 
