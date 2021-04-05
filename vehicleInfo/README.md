@@ -23,7 +23,7 @@ This sample add-in displays various Vehicle Information in the Map Add-in panel,
 
 # Installation
 
-To install, download this as a zip folder, then drag and drop it as a new Add-in within the System Settings page of MyGeotab:
+To install, download this as a zip folder (vehicleInfo.zip), then drag and drop it as a new Add-in within the System Settings page of MyGeotab:
 Administration > System > System Settings > Add-Ins > New Add-in > drag and drop zip file.
 
 addin.html and addin.css are the HTML and stylesheets, respectively.
