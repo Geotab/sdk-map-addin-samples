@@ -27,9 +27,12 @@ To install, download this as a zip folder (vehicleInfo.zip), then drag and drop 
 Administration > System > System Settings > Add-Ins > New Add-in > drag and drop zip file.
 
 addin.html and addin.css are the HTML and stylesheets, respectively.
+
 addin.js initializes dictionaries and defines behaviour when a device on the map is clicked. When a device is clicked, getData() executes, making multiCalls and manipulating the data.
-calls.js contains multiCall and global variable definitions.
-methods.js defines utility and data manipulation functions. These functions take the result of multiCalls (see call.js) and perform desired arithmetic/tasks. Note: the only API
-calls not defined in calls.js are in the getDiagnosticName() function.
+
+calls.js contains multiCall and global variable definitions. The only API calls not defined in calls.js are in the getDiagnosticName() function.
+
+methods.js defines utility and data manipulation functions. These functions take the result of multiCalls (see call.js) and perform desired arithmetic/tasks. 
+
 
 For more information/details please contact integrations@geotab.com.
