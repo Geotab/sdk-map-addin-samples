@@ -5,17 +5,21 @@ _This tool is not intended for use by U.S. Federal Government customers or other
 # About
 
 This sample add-in displays various Vehicle Information in the Map Add-in panel, on the Maps and/or Trips History pages of MyGeotab. The information displayed is as follows:
-1) VIN
-2) Make/Model
-3) Driver name
-4) Odometer
-5) Engine hours
-6) Fuel economy
-7) Engine speed
-8) Coolant temperature
-9) Ambient temperature
-10) Vehicle Faults (Last 30 Days)
-11) Vehicle Maintenance Reminders
+1) Vehicle name
+2) Current address
+3) Current speed
+4) Current fuel level
+5) VIN
+6) Make/Model
+7) Driver name
+8) Odometer
+9) Engine hours
+10) Fuel economy
+11) Engine speed
+12) Coolant temperature
+13) Ambient temperature
+14) Vehicle Faults (Last 30 Days)
+15) Vehicle Maintenance Reminders
 
 # Installation
 
