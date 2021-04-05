@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="addin.css" />
+    <script src="calls.js" async></script>
+    <script src="methods.js" async></script>
+    <script src="addin.js" async></script>
+  </head>
+
+  <body>
+    <div id="vechInfoAddin_app">
+      <!-- NAME SECTION -->
+      <div class="vechInfoAddin_headerSection">
+        <div>
+          <span class="vechInfoAddin_geotabHeader" id="vechInfoAddin_name">
+            Click a Device on the Map
+          </span>
+          <div id="vechInfoAddin_deviceActivity"></div>
+        </div>
+      </div>
+
+      <div id="vechInfoAddin_dataSection" style="display: none">
+        <!-- ADDRESS SECTION -->
+        <div class="vechInfoAddin_addressSection">
+          <i class="material-icons md-18 vechInfoAddin_icon md-light"
+            >my_location</i
+          ><span id="vechInfoAddin_location"></span>
+        </div>
+
+        <!-- SPEED AND SPEED LIMIT SECTION -->
+        <div class="vechInfoAddin_speedSection">
+          <div class="vechInfoAddin_grid">
+            <div
+              class="vechInfoAddin_block vechInfoAddin_col-50"
+              id="vehicleInfoAddin_speedDiv"
+            >
+              <i class="material-icons md-50 vechInfoAddin_icon md-light"
+                >speed</i
+              >
+              <div id="vechInfoAddin_currSpeed" class="vechInfoAddin_inner">
+                90 Km/h
+              </div>
+              <div id="vechInfoAddin_speedLimit">(No Limit Data)</div>
+            </div>
+            <div
+              class="vechInfoAddin_block vechInfoAddin_col-50"
+              id="vechInfoAddin_fuelDiv"
+            >
+              <i class="material-icons md-50 vechInfoAddin_icon md-light"
+                >local_gas_station</i
+              >
+              <div class="vechInfoAddin_inner" id="vechInfoAddin_fuel">89%</div>
+            </div>
+            <div
+              class="vechInfoAddin_block vechInfoAddin_col-50"
+              id="vechInfoAddin_chargeDiv"
+              style="display: none"
+            >
+              <i class="material-icons md-50 vechInfoAddin_icon md-light"
+                >battery_charging_full</i
+              >
+              <div class="vechInfoAddin_inner" id="vechInfoAddin_charge">
+                45%
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="vechInfoAddin_clear"></div>
+
+        <!-- ROWS OF DATA-->
+        <div>
+          <div class="vechInfoAddin_general vechInfoAddin_rowHeading">
+            General
+          </div>
+          <div class="vechInfoAddin_dataRow vechInfoAddin_topRow">
+            VIN
+            <div class="vechInfoAddin_right" id="vechInfoAddin_vin"></div>
+          </div>
+          <div class="vechInfoAddin_dataRow">
+            Make/Model
+            <div class="vechInfoAddin_right" id="vechInfoAddin_makeModel"></div>
+          </div>
+          <div class="vechInfoAddin_dataRow">
+            Driver
+            <div class="vechInfoAddin_right" id="vechInfoAddin_driver"></div>
+          </div>
+          <div id="vechInfoAddin_ELD">
+            <div class="vechInfoAddin_dataRow">
+              Duty Status
+              <div
+                class="vechInfoAddin_right"
+                id="vechInfoAddin_dutyStatus"
+              ></div>
+            </div>
+          </div>
+
+          <div class="vechInfoAddin_rowHeading">Measurements</div>
+          <div class="vechInfoAddin_dataRow vechInfoAddin_topRow">
+            Odometer
+            <div class="vechInfoAddin_right" id="vechInfoAddin_odometer"></div>
+          </div>
+          <div class="vechInfoAddin_dataRow">
+            Engine Hours
+            <div
+              class="vechInfoAddin_right"
+              id="vechInfoAddin_engineHours"
+            ></div>
+          </div>
+          <div class="vechInfoAddin_dataRow">
+            Fuel Economy (Last 30 Days)
+            <div class="vechInfoAddin_right" id="vechInfoAddin_fuelEcon"></div>
+          </div>
+          <div class="vechInfoAddin_dataRow">
+            Engine Speed
+            <div
+              class="vechInfoAddin_right"
+              id="vechInfoAddin_engineSpeed"
+            ></div>
+          </div>
+          <div class="vechInfoAddin_dataRow">
+            Coolant Temperature
+            <div
+              class="vechInfoAddin_right"
+              id="vechInfoAddin_coolantTemp"
+            ></div>
+          </div>
+          <div class="vechInfoAddin_dataRow">
+            Ambient Temperature
+            <div
+              class="vechInfoAddin_right"
+              id="vechInfoAddin_ambientTemp"
+            ></div>
+          </div>
+
+          <div class="vechInfoAddin_rowHeading vechInfoAddin_bottomRow">
+            Vehicle Faults (Last 30 Days)
+            <label class="vechInfoAddin_switch" onchange="changeToggleState()">
+              <input type="checkbox" />
+              <span class="vechInfoAddin_slider round">
+                <span class="vechInfoAddin_tooltiptext"
+                  >Toggle to remove GO device faults.</span
+                ></span
+              >
+            </label>
+          </div>
+          <div id="vechInfoAddin_faultSection"></div>
+
+          <div class="vechInfoAddin_rowHeading vechInfoAddin_bottomRow">
+            Maintenance & Reminders
+          </div>
+          <div id="vechInfoAddin_reminderSection"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
