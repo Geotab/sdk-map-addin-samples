@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="scripts/main.js" async></script>
+  <link rel="stylesheet" href="styles/main.css">
+  
+  <title>LiveTripHistory</title>
+</head>
+
+<body class="livetriphistory">
+    <!-- Disclaimer -->
+
+    <div id="addinDisclaimerModal">
+        <div class="modalconent">
+          <div class="santListStyle modalTitle">Disclaimer:</div>
+    
+          <div class="modalMarginTop">The data in this add in comes from third party sources and is used with permission,
+            where required.
+            Geotab cannot guarantee the accuracy or completeness of the information, disclaim all liability for its use.
+            By continuing to use the add-in, you agree to these terms.</div>
+          <button id="addinCloseModal">Continue</button>
+        </div>
+      </div>
+  <div class="addin">
+      <div class="containerTripHistory">
+  
+          <div class="w3-panel w3-geotabblue w3-card-4">
+              <h1 class = "livetriphistory addinTextCenter"> Trip History</h1>
+          </div>
+
+          <div class="w3-card">
+              <div class="addin_row">
+                  <div class="slidecontainer">
+
+                  <p class="sansserifth addinTextCenter">Trip History Slider</p>
+                  
+                  <input type="range" list="tickmarks" min="0" max="600" value="300" class="slider" step="5" id="addin_slider">
+                  <datalist id="tickmarks">
+                  <option value="0" label="0:00Hr"></option>
+                  <option value="60"></option>
+                  <option value="120"></option>
+                  <option value="180"></option>
+                  <option value="240"></option>
+                  <option value="300" label="5:00Hr"></option>
+                  <option value="360"></option>
+                  <option value="420"></option>
+                  <option value="480"></option>
+                  <option value="540"></option>
+                  <option value="600" label="10:00Hr"></option>
+                  </datalist>
+
+                  <hr></hr>
+                  <p class="sansserifth"> <b><span id="demo"></span></b> <span id="text"></span></p>
+              
+                  </div>
+              </div>
+          </div>
+
+              <div class="w3-card">
+                  <div class="addin_row">
+                      <div class="slidecontainer">
+                          <table class="w3-table w3-striped">
+                              <tr>
+                                  <td><p class="sansserifth">  <span id="From"></span> </p></td>
+                              </tr>
+                              <tr>
+                                  <td><p class="sansserifth"> <b><span id="FromDate"></span></b></p></td>
+                              </tr>
+                              <tr>
+                                  <td><p class="sansserifth">  <span id="To"></span> </p></td>
+                              </tr>
+                              <tr>
+                                  <td><p class="sansserifth"><b><span id="ToDate"></span></b></p></td>
+                              </tr>
+                          </table>
+                      </div>
+          
+                  </div>
+               </div>   
+          
+      <div class="w3-card">
+          <div class="addin_row">
+              <button class="geotabButton geotabButtonLarge rightGeotabIcon addinTextCenter" id="addin_create">Clear Trip History</button>
+          </div>
+      </div>
+
+  </div>
+  </div>
+  </body>
+
+</html>
