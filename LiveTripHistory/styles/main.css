@@ -1,0 +1,209 @@
+.containerTripHistory {
+    font-family: "Segoe UI",Segoe,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 0.8em;
+}
+
+
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #2c7ab1;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #2c7ab1;
+  cursor: pointer;
+}
+
+
+p.sansserifth {
+    text-align: center;
+    font-family: "Segoe UI",Arial,sans-serif;
+  }
+
+
+
+  h1.livetriphistory {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    font-size: 36px;
+}
+  
+
+  #TripLine {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.w3-container,.w3-panel {
+    padding: 0.01em 16px
+}
+
+.w3-panel {
+    margin-top: 16px;
+    margin-bottom: 16px
+}
+
+.w3-geotabblue,.w3-hover-geotabblue:hover {
+    color: #fff!important;
+    background-color: #2c7ab1!important
+}
+
+.w3-card-4,.w3-hover-shadow:hover {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
+}
+
+.w3-card,.w3-card-2 {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+}
+
+.w3-card-4,.w3-hover-shadow:hover {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
+}
+
+.addin .addin_row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.addin .addin_row label {
+    flex: 0 0 50px;
+}
+
+#addin_create {
+    flex: 1 1 50px;
+    padding-right: 2.1em;
+  
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #c5dbec;
+    background-color: #e8f3fd;
+    color: #25477b;
+    fill: #25477b;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding: 6px 11px; 
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    font-style: inherit;
+    font-variant-ligatures: inherit;
+    font-variant-caps: inherit;
+    font-variant-numeric: inherit;
+    font-variant-east-asian: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    margin: 0;
+    overflow: visible;
+    overflow-x: visible;
+    overflow-y: visible;
+}
+
+.w3-striped tbody tr:nth-child(even) {
+    background-color: #f1f1f1
+}
+
+.geotabButton.rightGeotabIcon>.geotabButtonIcons {
+    float: right;
+    right: 0.7em;
+    top: 50%;
+    margin-top: -5.5px
+}
+
+.w3-table td, .w3-table th, .w3-table-all td, .w3-table-all th {
+    padding: 8px 8px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+}
+
+
+.w3-table th:first-child, .w3-table td:first-child, .w3-table-all th:first-child, .w3-table-all td:first-child {
+    padding-left: 16px;
+}
+
+.w3-table, .w3-table-all {
+    border-collapse: collapse;
+    border-spacing: 0;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+    width: 100%;
+    display: table;
+}
+
+.addinTextCenter{
+    text-align: center;
+}
+
+.modalconent {
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f1f1f1;
+    width: 88%;
+    padding: 20px;
+    z-index: 999;
+    height: 50%;
+}
+
+.santListStyle{
+    display: inline-block;
+    width: 86%;
+    text-align: left;
+}
+
+  .modalTitle{
+    width: 100%;
+}
+
+.modalMarginTop {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
