@@ -7,7 +7,7 @@
 		"title": "Make Model Year Tool Tip",
 		"noView": "true",
         "mapScript": {
-            "src": "/map/addin.js"
+            "src": "/makeModelYearTooltip/addin.js"
         }
     }]
 }
