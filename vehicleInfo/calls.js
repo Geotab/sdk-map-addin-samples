@@ -36,7 +36,7 @@ function defineMulticallInit(group) {
     [
       "Get",
       {
-        typeName: "EventRule",
+        typeName: "Rule",
       },
     ],
   ]);
